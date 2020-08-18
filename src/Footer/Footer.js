@@ -5,7 +5,11 @@ export default class Footer extends Component {
     return (
       <footer className="footer">
         Made with ❤ by&nbsp;
-        <a href="https://alexneep.com" target="_blank" rel="noopener">
+        <a
+          href="https://alexneep.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Alex Neep
         </a>
       </footer>
