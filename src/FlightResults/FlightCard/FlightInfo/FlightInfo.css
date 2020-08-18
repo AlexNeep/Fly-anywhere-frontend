@@ -1,0 +1,25 @@
+.flight-info {
+  width: 150px;
+}
+.flight-info .route {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flight-info div {
+  text-align: center;
+}
+.flight-info .city {
+  font-weight: 600;
+}
+.flight-info .country {
+  /* font-weight: 600; */
+}
+.flight-info .carrier {
+  /* padding: 0vh 0 1vh 0; */
+}
+.flight-info .price {
+  width: 50px;
+  font-weight: 600;
+}

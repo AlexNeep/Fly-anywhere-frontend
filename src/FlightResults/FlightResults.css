@@ -1,0 +1,18 @@
+.loading-img {
+  width: 40%;
+  text-align: center;
+}
+.flight-results .details {
+  color: var(--v-dark-blue);
+
+  margin-bottom: 2vh;
+}
+.flight-results .origin {
+  font-size: 22px;
+}
+.flight-results .date {
+  font-size: 18px;
+}
+.flight-results span {
+  font-weight: 600;
+}

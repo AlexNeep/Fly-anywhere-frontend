@@ -1,0 +1,106 @@
+:root {
+  --v-dark-blue: #002347;
+  --dark-blue: #0077b6;
+  --med-blue: #00b4d8;
+  --light-blue: #90e0ef;
+  --v-light-blue: #caf0f8;
+}
+html {
+  background-color: #ebfbff;
+}
+.app {
+}
+.container {
+}
+input {
+  border: 0;
+}
+button {
+  border: 0;
+}
+
+h1 {
+}
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.dark {
+  color: #002347;
+}
+.highlight {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5vh 0 5vh 0;
+  flex-wrap: wrap;
+  background-color: #ebfbff;
+
+  height: 90%;
+}
+.selection-col {
+  margin: 0vh 2vh 2vh 2vh;
+  padding: 2vh;
+
+  border-radius: 10px;
+  box-shadow: 0 0 1px 1px var(--v-dark-blue);
+  position: relative;
+
+  flex: 1 200px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--v-dark-blue);
+
+  width: 10%;
+}
+
+.results-col {
+  flex: 2 400px;
+  text-align: center;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ebfbff;
+  /* padding-bottom: 20vh; */
+}
+
+.col {
+  flex: 1;
+  text-align: center;
+}
+
+.page-changer {
+  width: 20vh;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.page-button {
+  color: var(--v-dark-blue);
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.toggle {
+  opacity: 1;
+}

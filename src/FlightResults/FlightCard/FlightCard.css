@@ -1,0 +1,55 @@
+.flight-card {
+  display: flex;
+  justify-content: center;
+  /* align-items: ; */
+  flex-wrap: wrap;
+
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 80%;
+
+  padding: 2vh 2vh 2vh 2vh;
+
+  border-radius: 10px;
+  background-color: #002347;
+  box-shadow: 0 0px 2px 1px #002347;
+
+  color: #ebfbff;
+}
+.flight-card .destination-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex: 2 300px;
+  height: 9vh;
+
+  position: relative;
+}
+.flight-card .price-row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  flex: 1 150px;
+  position: relative;
+}
+.type img {
+  height: 100%;
+  border-radius: 50px;
+  margin: 0px 5px 0px 5px;
+}
+.flight-card .buy {
+  background-color: #7ae582;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #002347;
+  font-weight: 600;
+  padding: 2px 8px 2px 8px;
+  cursor: pointer;
+}
